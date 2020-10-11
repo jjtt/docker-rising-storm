@@ -22,7 +22,7 @@ run)
 
   cd "$GAMEDIR"
 
-  /opt/wine-staging/bin/wine ./VNGame.exe -Port=7787 -QueryPort=27015 vnsu-SongBe
+  /opt/wine-staging/bin/wine ./VNGame.exe -Port=7787 -QueryPort=27015 VNTE-Firebase
   ;;
 *)
   echo "Unknows mode: $MODE"
