@@ -11,3 +11,6 @@
   * web admin ListenPort is configured in ROWeb.ini
 1. `docker run --rm -ti --net=host -v $PWD/gamedir:/home/user/Steam risingstorm run`
 
+# Known issues
+
+1. Without `--net=host` the server publishes an ip of `0.0.0.0` and connecting to it does not work
