@@ -1,4 +1,4 @@
-= Rising Storm 2 - Vietnam dedicated server in a container on linux =
+# Rising Storm 2 - Vietnam dedicated server in a container on linux
 
 1. Read the documentation: https://wiki.rs2vietnam.com/index.php?title=DedicatedServer
 1. clone this repo
