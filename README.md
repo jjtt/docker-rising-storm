@@ -14,3 +14,8 @@
 # Known issues
 
 1. Without `--net=host` the server publishes an ip of `0.0.0.0` and connecting to it does not work
+
+
+# Thanks
+
+* https://github.com/BitR/empyrion-docker
