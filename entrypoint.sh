@@ -1,6 +1,7 @@
 #!/bin/bash -ex
 
 MODE="$1"
+PORT="${2:-27015}"
 
 case $MODE in
 update)
@@ -22,7 +23,7 @@ run)
 
   cd "$GAMEDIR"
 
-  /opt/wine-staging/bin/wine ./VNGame.exe -Port=7787 -QueryPort=27015 VNTE-Firebase
+  /urs/lib/wine/wine64 ./VNGame.exe VNTE-Firebase -Port=7787 -QueryPort=$PORT $EXTRA_ARGUMENTS
   ;;
 *)
   echo "Unknows mode: $MODE"
