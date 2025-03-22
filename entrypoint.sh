@@ -23,7 +23,7 @@ run)
 
   cd "$GAMEDIR"
 
-  /urs/lib/wine/wine64 ./VNGame.exe VNTE-Firebase -Port=7787 -QueryPort=$PORT $EXTRA_ARGUMENTS
+  /usr/lib/wine/wine64 ./VNGame.exe VNTE-Firebase -Port=7787 -QueryPort=$PORT $EXTRA_ARGUMENTS
   ;;
 *)
   echo "Unknows mode: $MODE"
